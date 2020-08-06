@@ -8,7 +8,7 @@ target :'AsyncDisplayKitTests' do
   pod 'JGMethodSwizzler', :git => 'https://github.com/JonasGessner/JGMethodSwizzler', :branch => 'master'
 
   # Only for buck build
-  pod 'PINRemoteImage', '3.0.0-beta.13'
+  pod 'PINRemoteImage', :git => 'https://github.com/ShingoFukuyama/PINRemoteImage', :branch => '3.0.0-beta.14_xcode12_beta4_workaround'
 end
 
 #TODO CocoaPods plugin instead?
